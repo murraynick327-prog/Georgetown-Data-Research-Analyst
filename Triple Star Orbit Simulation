@@ -72,7 +72,7 @@ while t < 2: # Run for a fixed time instead of indefinitely
         time_values.append(t)
 
 plt.plot(time_values, energy_values)
-plt.xlabel("Time")
+plt.xlabel("Time (Years)"
 plt.ylabel("Energy")
 plt.title("Energy over Time")
 plt.show()
